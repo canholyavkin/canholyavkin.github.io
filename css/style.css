@@ -1,0 +1,40 @@
+body{ /* Normal  */
+font-family: 'Open Sans', sans-serif;
+font-size: 10.5pt;
+}
+
+h1.title { /* Title  */
+font-family: 'Open Sans', sans-serif;
+font-size: 0pt;
+}
+
+td {  /* Table  */
+font-family: 'Open Sans', sans-serif;
+font-size: 10pt;
+}
+
+h1 { /* Header 1 */
+font-family: 'Open Sans', sans-serif;
+font-size: 17pt;
+}
+
+h2 { /* Header 2 */
+font-family: 'Open Sans', sans-serif;
+font-size: 14pt;
+}
+
+h3 { /* Header 3 */
+font-family: 'Open Sans', sans-serif;
+font-size: 12pt;
+}
+
+blockquote {
+font-family: 'Open Sans', sans-serif;
+font-size: 11pt;
+}
+
+.footnotes {
+font-family: 'Open Sans', sans-serif;
+font-size: 9pt;
+}
+
