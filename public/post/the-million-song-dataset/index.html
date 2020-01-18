@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+  
+    <meta name="twitter:card" content="summary"/>
+    
+      <meta name="twitter:image" content="/your_site_url_addressimages/avatar.png" />
+    
+  
+  
+  <meta name="twitter:title" content="The Million Song Dataset"/>
+  <meta name="twitter:description" content="The Million Song Dataset is a freely-available collection of audio features and metadata for a million contemporary popular music tracks."/>
+  
+    <meta name="twitter:site" content="@canholyavkin"/>
+  
+  
+  
+  
+    <meta name="twitter:creator" content="@site_author"/>
+  
+
+
+
+		
+		<meta name="author" content="site_author">
+		<meta name="description" content="Site Description">
+		<meta name="generator" content="Hugo 0.60.1" />
+		<title>The Million Song Dataset &middot; Can Holyavkin</title>
+		<link rel="shortcut icon" href="/your_site_url_addressimages/favicon.ico">
+		<link rel="stylesheet" href="/your_site_url_addresscss/style.css">
+		<link rel="stylesheet" href="/your_site_url_addresscss/highlight.css">
+
+		
+		<link rel="stylesheet" href="/your_site_url_addresscss/font-awesome.min.css">
+		
+
+		
+		<link href="/your_site_url_address/index.xml" rel="alternate" type="application/rss+xml" title="Can Holyavkin" />
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/your_site_url_address'> <span class="arrow">←</span>Home</a>
+	
+	<a href='/your_site_url_addressposts'>Archive</a>
+	<a href='/your_site_url_addresstags'>Tags</a>
+	<a href='/your_site_url_addressabout'>About</a>
+
+	
+
+	
+	<a class="cta" href="/your_site_url_address/index.xml">Subscribe</a>
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        The Million Song Dataset
+                    </h1>
+                    <h2 class="headline">
+                    Dec 16, 2019 00:00
+                    · 557 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/your_site_url_addresstags/data-source">Data Source</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                  
+                
+                <section id="post-body">
+                    
+
+
+<p>Dealing with R as a professional or hobby; you always need a good dataset to get started. The more comprehensive and interesting the dataset is, the more creative visuals and interesting statistical findings will be created. Unfortunately, finding such comprehensive and tidy data is not always easy. For this reason, I decided to start the ”Data Sources” series, which will introduce interesting datasets that you can access on the web. Our first guest is a music database <strong>MillionSong</strong>.</p>
+<p><img src="/post/the-million-song-dataset_files/Unknown.jpeg" /></p>
+<div id="world-music-archive" class="section level1">
+<h1>World Music Archive</h1>
+<p>MillionSong, the largest personal music archive available for personal access, was first launched in 2011 <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. MillionSong was born with the collaboration of <a href="https://labrosa.ee.columbia.edu/">LabROSA</a> laboratory at the University of Columbia, which develops voice-speech recognition systems, and The <a href="http://the.echonest.com/">Echo Net</a>, a company that develops decision-making mechanisms based on people’s music preferences <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p>
+<p>Of the more than 30 million tracks found in The Echo Net’s database, the most popular 1 million tracks have been selected and dozens of their metadata have been compiled and made available for public access. There are tons of metadata can be accessed such as:</p>
+<ul>
+<li>Title of the track and album</li>
+<li>Year of release</li>
+<li>Artist’s name</li>
+<li>Geographical location of departure</li>
+<li>Maximum decibel value of the track and overall loudness</li>
+<li>Estimated tempo of the part (BPM)</li>
+<li>Total duration of the track and the time when the tempo starts</li>
+<li>Whether it is suitable for dancing</li>
+<li>Which species it belongs to</li>
+<li>Record of 100 other artists of similar genre</li>
+<li>Popularity ,and so on.</li>
+</ul>
+<p>There are 54 parameters more for each song item. Of course, these data do not contain audio files due to obvious licensing reasons. You can find the complete list of parameters <a href="https://labrosa.ee.columbia.edu/millionsong/pages/field-list">here</a> and see the example values of these parameters in <a href="https://labrosa.ee.columbia.edu/millionsong/pages/example-track-description">here</a>.</p>
+</div>
+<div id="how-to-download" class="section level1">
+<h1>How to Download</h1>
+<p>In this colossal music database <strong>44,745</strong> artist <strong>1 Million</strong> tracks are available with dozens of metadata. You can estimate that the size of the total dataset. You can download this huge data close to 200 GB directly from the Million Song Dataset (<a href="https://www.opensciencedatacloud.org/publicdata/million-song-dataset/" class="uri">https://www.opensciencedatacloud.org/publicdata/million-song-dataset/</a>) on the Open Science Data Cloud (OSDC). Alternatively, if you have a virtual machine installed on the cloud, you can pull the relevant data from the link <a href="http://aws.amazon.com/datasets/6468931156960467">Amazon Public Dataset</a> from the Amazon Web Services. If you just wanted to brwose the content, they also allow you to download the subset that covers 1% of all data (10,000 tracks and 1.8 GB). The direct download link for this dataset is [<a href="http://static.echonest.com/millionsongsubset_full.tar.gz" class="uri">http://static.echonest.com/millionsongsubset_full.tar.gz</a>].</p>
+</div>
+<div id="what-can-be-done" class="section level1">
+<h1>What can be done?</h1>
+<p>What to do with this much data, what kind of statistical and visual studies to do is entirely up to you. Nevertheless,looking at few examples from web may give you an idea to start.</p>
+<p>Interesting graphics below are created by the Twitter user <a href="https://twitter.com/iamreddave">iamreddave</a> using the MillionSong dataset. By looking at the graphics, you can clearly see that music is following certain patterns over the years.</p>
+<p><img src="/post/the-million-song-dataset_files/EA5Uu45X4AcOLmX.jpeg" /></p>
+<p>In addition to data visualization, there is no limit to the algorithms and statistical analysis you can apply. Check the website at <a href="https://labrosa.ee.columbia.edu/millionsong/" class="uri">https://labrosa.ee.columbia.edu/millionsong/</a>. After a quick browse of the data will definitely trigger creative ideas from fancy ML applications to academic .</p>
+<p>I hope you’re interested in this series of articles. Obviously, I believe that comprehensive and interesting data will always encourage the use of R. For this reason, I will occasionally introduce similar interesting databases.</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="http://ismir2011.ismir.net/papers/OS6-1.pdf" class="uri">http://ismir2011.ismir.net/papers/OS6-1.pdf</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>The Echo Net was later acquired by Spotify.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'can_h'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/nodejh">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/nodejh">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2020 <i class="fa fa-heart" aria-hidden="true"></i> site_author
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="/your_site_url_addressjs/jquery-3.3.1.min.js"></script>
+<script src="/your_site_url_addressjs/main.js"></script>
+<script src="/your_site_url_addressjs/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'your_google_analytics_id', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+
+    </body>
+</html>

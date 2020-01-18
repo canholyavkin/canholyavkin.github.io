@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Veri Görselleştirme on Can Holyavkin</title>
+    <link>/your_site_url_address/tags/veri-g%C3%B6rselle%C5%9Ftirme/</link>
+    <description>Recent content in Veri Görselleştirme on Can Holyavkin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Sat, 09 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/your_site_url_address/tags/veri-g%C3%B6rselle%C5%9Ftirme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Heatmap (Isı Haritası) Nasıl Oluşturulur?</title>
+      <link>/your_site_url_address/post/heatmap-is%C4%B1-haritas%C4%B1-nas%C4%B1l-olu%C5%9Fturulur/</link>
+      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/your_site_url_address/post/heatmap-is%C4%B1-haritas%C4%B1-nas%C4%B1l-olu%C5%9Fturulur/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

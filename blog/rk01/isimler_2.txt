@@ -1,9 +1,0 @@
-Ad	Soyad	Şehir
-Can	Şener	İstanbul
-Mehmet	Yılmaz	Kayseri
-Gizem	Aydın	Adana
-Deniz	Buruk	
-Ebru	Gün	Yozgat
-Dilek	Pınar	Denizli
-Bahar		Ankara
-Ali	Dündar	Bolu
