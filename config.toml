@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://github.com/canholyavkin/canholyavkin.github.io"
+baseurl = "https://github.com/canholyavkin/canholyavkin.github.io/"
 languageCode = "tr"
 title = "Can Holyavkin"
 theme = "hugo-theme-cactus-plus"
