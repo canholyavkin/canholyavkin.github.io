@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/your_site_url_address/</loc>
+    <loc>/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/tags/data-source/</loc>
+    <loc>/tags/data-source/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/categories/english/</loc>
+    <loc>/categories/english/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/post/the-million-song-dataset/</loc>
+    <loc>/post/the-million-song-dataset/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/tags/benchmarking/</loc>
+    <loc>/tags/benchmarking/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/post/benchmarking-on-r/</loc>
+    <loc>/post/benchmarking-on-r/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/your_site_url_address/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   

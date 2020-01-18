@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Benchmarking on Can Holyavkin</title>
-    <link>/your_site_url_address/tags/benchmarking/</link>
+    <link>/tags/benchmarking/</link>
     <description>Recent content in Benchmarking on Can Holyavkin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/your_site_url_address/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Benchmarking on R</title>
-      <link>/your_site_url_address/post/benchmarking-on-r/</link>
+      <link>/post/benchmarking-on-r/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/your_site_url_address/post/benchmarking-on-r/</guid>
+      <guid>/post/benchmarking-on-r/</guid>
       <description>The speed and performance analyzes that are performed to see how fast the function you are writing or to find the faster one between the two functions is called benchmark tests. (In fact, benchmarking is called any kind of measurement and comparison process.) In this article, we’ll cover a few ways we can do a benchmark test in R.
 At this point, you may want to consider why you need a performance test.</description>
     </item>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Can Holyavkin</title>
-    <link>/your_site_url_address/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Can Holyavkin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/your_site_url_address/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>English</title>
-      <link>/your_site_url_address/categories/english/</link>
+      <link>/categories/english/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/your_site_url_address/categories/english/</guid>
+      <guid>/categories/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/your_site_url_address/categories/r/</link>
+      <link>/categories/r/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/your_site_url_address/categories/r/</guid>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     
