@@ -139,7 +139,7 @@ df &lt;- data.frame(Base=base.time$time,
 
 # Visualization
 boxplot(df, ylim = c(0, 100000))</code></pre>
-<p><img src="/your_site_url_addresspost/benchmarking-on-r_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="/post/benchmarking-on-r_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>Interestingly, the kernel function is slower. This is because the sample set we use is too small. In larger datasets, the kernel functions can achieve much more success. <strong>In any case, we seem to be able to write a function that runs faster than the kernel function for the dataset we have. (Yey!)</strong></p>
 </div>
 
