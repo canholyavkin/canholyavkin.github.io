@@ -8,8 +8,8 @@ googleAnalytics = "your_google_analytics_id"
 hasCJKLanguage = false
 
 [params]
-	author = "site_author"
-	description = "Site Description"
+	author = "Can Holyavkin"
+	description = "Can Holyavkin's Website"
 	bio = "Molecular Biology and Genetics PhD Student. Working on Statistics and Bioinformatics. Likes Minimalist stuff."
 
 	twitter = "canholyavkin"
@@ -18,7 +18,7 @@ hasCJKLanguage = false
 	enableRSS = true
 	enableToc = true
 
-	enableDisqus = true
+	enableDisqus = false
 	disqusShortname = "can_h"
 
 
@@ -74,5 +74,5 @@ hasCJKLanguage = false
 
 # Add additional social link entries underneath
 [social]
-	twitter-square = "https://www.twitter.com/nodejh"
-	github-square = "https://www.github.com/nodejh"
+	twitter-square = "https://twitter.com/CanHolyavkin"
+	github-square = "https://github.com/canholyavkin"
