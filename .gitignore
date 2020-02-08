@@ -8,4 +8,4 @@
 *.rdb
 *.RData
 *.rdx
-public/
+public/post/*_cache/

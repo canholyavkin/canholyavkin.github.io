@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioinformatics on Can Holyavkin</title>
+    <link>/categories/bioinformatics/</link>
+    <description>Recent content in Bioinformatics on Can Holyavkin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ClinVar 2019 Overview</title>
+      <link>/post/clinvar-2019-overview/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/clinvar-2019-overview/</guid>
+      <description>In 2018, Craig Venter and his team in Human Longevity Inc. published a remarkable article titled “Identification of Misclassified ClinVar Variants via Disease Population Prevalence”.1 The article was about excess genetic risk and misclassification in the ClinVar database. They observed that inflation increases as the level of evidence supporting the pathogenic nature of the variant decreases. In other words, variants that have fewer interpretation records were more prone to be misclassified as pathogenic.</description>
+    </item>
+    
+  </channel>
+</rss>
