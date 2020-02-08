@@ -5,3 +5,7 @@
 *.Rproj
 *.Rmd
 .DS_Store
+*.rdb
+*.RData
+*.rdx
+public/

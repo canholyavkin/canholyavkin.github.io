@@ -22,7 +22,7 @@ description: "You can easily set benchmarking tests on R to see how efficient an
 Sys.sleep(1)
 stop &lt;- Sys.time() 
 stop-start </code></pre>
-<pre><code>## Time difference of 1.003533 secs</code></pre>
+<pre><code>## Time difference of 1.003094 secs</code></pre>
 </div>
 <div id="professional-way" class="section level1">
 <h1>Professional Way</h1>
@@ -32,11 +32,11 @@ stop-start </code></pre>
 bmi &lt;- microbenchmark (Sys.sleep (1), times = 10, unit = &quot;s&quot;)
 bmi</code></pre>
 <pre><code>## Unit: seconds
-##          expr      min       lq     mean  median       uq      max neval
-##  Sys.sleep(1) 1.000844 1.002422 1.002842 1.00277 1.004228 1.004463    10</code></pre>
+##          expr      min       lq     mean   median       uq      max neval
+##  Sys.sleep(1) 1.000089 1.000291 1.002284 1.002261 1.003867 1.005063    10</code></pre>
 <pre class="r"><code>bmi$time</code></pre>
-<pre><code>##  [1] 1004443688 1002522181 1002871777 1001024731 1004228447 1002931853
-##  [7] 1002421530 1002667897 1004462803 1000843610</code></pre>
+<pre><code>##  [1] 1000291473 1001187924 1003334706 1003866991 1003481443 1005063438
+##  [7] 1000089390 1000223134 1000662934 1004637489</code></pre>
 </div>
 <div id="example" class="section level1">
 <h1>Example</h1>
@@ -49,7 +49,7 @@ numbers &lt;- rnorm(1000,50,5)
 
 # Validation
 sd_m(numbers) == sd(numbers)</code></pre>
-<pre><code>## [1] TRUE</code></pre>
+<pre><code>## [1] FALSE</code></pre>
 <pre class="r"><code># Benchmarking
 # We record the times of the base and in-house functions and create a table.
 base.time   &lt;- microbenchmark(sd(numbers), times=100) 

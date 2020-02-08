@@ -6,15 +6,24 @@
     <description>Recent content in Tags on Can Holyavkin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>ClinVar</title>
+      <link>/tags/clinvar/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/clinvar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Source</title>
       <link>/tags/data-source/</link>
-      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-source/</guid>
       <description></description>

@@ -377,7 +377,7 @@ em, i {
     color: #b2b9be;
     font-size: 12px;
     text-transform: lowercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 5px;
     display: block;
 }
@@ -479,11 +479,25 @@ thead th, th {
 }
 
 img {
-    width: 100%;
-    max-width: 100%;
+    width: 130%;
+    margin: 0px 0px 0px -110px;
+    max-width: 130%;
     border-radius: 3px;
 }
 
+#htmlwidget-1 {
+    width: 130%;
+    margin: 0px 0px 0px -110px;
+    max-width: 130%;
+    border-radius: 3px;
+}
+
+#avatar {
+    width: 130%;
+    margin: 0 auto;
+    max-width: 130%;
+    border-radius: 3px;
+}
 
 /* Made with Cactus Badge */
 
@@ -678,7 +692,7 @@ h1.archive {
 h2.month {
     width: 100%;
     font: bold 13px/1 "Avenir", helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-top: 40px;
     margin-bottom: 10px;
     padding-bottom: 10px;
