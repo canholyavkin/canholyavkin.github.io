@@ -4,18 +4,14 @@ hidden: true
 title: About
 ---
 
-Bioinformatics analyst & molecular biologist with 6+ years of experience in next-generation sequencing data analysis & statistics in both clinical and R&D laboratories. Highly proficient with the analytic programming languages (Unix & R language) and majority of analysis tools.  
+Bioinformatics analyst & molecular biologist with 7+ years of experience in next-generation sequencing & microarray data analysis & statistics in both clinical and R&D laboratories. Highly proficient with the analytic programming languages (Unix & R language) and majority of analysis tools. Experienced with large-scale genomic data analysis with over 120 academic and clinical projects that includes various approaches from de-novo transcriptome to metagenomic analysis.
 
-Strengths in data visualization, creative problem solving and troubleshooting. Experienced with large-scale genomic data analysis with over 50 academic and clinical projects that includes various approaches from de-novo transcriptome to metagenomic analysis.
+***
 
 # Work Experience
-## Project Manager
-**Company:** Gen Era Diagnostics Inc.  
-**Period:** Jan 2019 - Present
+**Project Manager** at [Gen Era Diagnostics Inc.](https://www.gen-era.com.tr) (Jan 2019 - Present)
 
-## Bioinformatics Analyst
-**Company:** DONE Genetics and Bioinformatics Inc.  
-**Period:** Jan 2013 - Jan 2019  
+**Bioinformatics Analyst** at [DONE Genetics and Bioinformatics Inc.](http://www.donegenetik.com) (Jan 2013 - Jan 2019)  
 
 Performed all basic and advanced analyses of both NGS based clinical and R&D projects using the current open source software. Development and benchmarking the pipelines for NGS data analysis including whole genome/exome sequencing, amplicon sequencing, RNA-seq, and ChIP-seq.  
 
@@ -42,9 +38,7 @@ Performed all basic and advanced analyses of both NGS based clinical and R&D pro
   - Development of Library Preparation Kits  
   - Development of Consumer Genetics Products  
 
-## R&D Scientist 
-**Company:** Sentromer DNA Technologies LLC   
-**Period:** Jan 2012 - Jan 2013  
+**R&D Scientist** at [Sentromer DNA Technologies LLC](https://www.sentromer.com) (Jan 2012 - Jan 2013)
 
 - Synthetic oligonucleotide production and artificial gene synthesis  
 - Molecular kit development for GMO screening and pathogen detection

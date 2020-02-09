@@ -272,8 +272,10 @@ a, #post-nav a, #post-list a {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+  list-style-type: square;
+  margin: 0px 0px 7px 0px;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
