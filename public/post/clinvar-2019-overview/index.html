@@ -63,16 +63,15 @@
 	
 </nav>
 
-
         <section id="wrapper" class="post">
             <article>
-                <header>
+                <header> 
                     <h1>
                         ClinVar 2019 Overview
                     </h1>
                     <h2 class="headline">
                     Jan 26, 2020 00:00
-                    · 1029 words
+                    · 1030 words
                     · 5 minute read
                       <span class="tags">
                       
@@ -99,27 +98,27 @@
 
 
 <p>In 2018, Craig Venter and his team in <a href="https://www.humanlongevity.com">Human Longevity Inc</a>. published a remarkable article titled “<strong>Identification of Misclassified ClinVar Variants via Disease Population Prevalence</strong>”.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> The article was about excess genetic risk and misclassification in the ClinVar database. They observed that inflation increases as the level of evidence supporting the pathogenic nature of the variant decreases. In other words, variants that have fewer interpretation records were more prone to be misclassified as pathogenic.</p>
-<p>After two years, I wanted to analyse the effect of the new submitters on the review status of clinical variants.</p>
+<p>After two years, I wanted to re-analyse the effect of the new submitters on the review status of clinical variants.</p>
 <div id="the-current-status" class="section level1">
 <h1>The Current Status</h1>
 <p>Luckily, ClinVar has a structured database and keeps the fixed records of each month in their FTP server.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> So theoretically, we can track the change of curation of particular variant each month. But, I kept it simple and just compared the first months of 2019 and 2020.</p>
 <p>The January 2020 dataset of ClinVar holds about <strong>1.3 million variant records</strong> with 31 features. However, the majority of those records are just duplicates of the same variant for the GRCh38 and GRCh37 assembly. For the sake of simplicity, I used only GRCh37 records for the rest of the analysis.</p>
 <p>Before moving further, let me share some facts about the current content of ClinVar. When we list the genes with the most ClinVar records, unsurprisingly some popular genes such as <em>BRCA1</em>, <em>BRCA2</em>, <em>ATM</em> stand out. Except for the colossal <em>TTN</em> gene (has 13.037 records in 24 Mb length) all of those genes are linked with various cancer types. Thus, when we look at the most common diseases, we see predominantly cancer-related syndromes. As you may notice, all of them hereditary cancers. In ClinVar, somatic originated records constitute less than 0.7% of all records.</p>
-<p><img src="/post/clinvar_2019_overview_files/figure-html/Gene%20Stats%20of%202020-1.png" width="1152" /></p>
+<p><img src="/post/clinvar_2019_overview_files/figure-html/Gene Stats of 2020-1.png" width="1152" /></p>
 <p>ClinVar is accepting more and more new submissions each month. Such that, in peak seasons it registers about <strong>1100 new submission every day</strong>. However, in April 2019 and later on, the submission rate dropped ~95 percent (to 30 submissions/day). You may wonder what happened at that time. Well, ClinVar released a major release and overhaul its website and XML structure.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> In that release, ClinVar’s submission processing was also updated to use NCBI’s SPDI notation and Variant Overprecision Correction algorithm (VOCA).<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> The adoption of SPDI and VOCA resulted in a 50% decrease in the number of duplicate variant records that must be manually curated and merged by NCBI staff.</p>
 <p>While analyzing the data, I noticed that there are variants (e.g <a href="https://www.ncbi.nlm.nih.gov/clinvar/variation/102428/">rs587777211</a>) that are last evaluated in 1968. No one mind to re-evaluate those in last 50 years. :)</p>
-<p><img src="/post/clinvar_2019_overview_files/figure-html/Total%20Records%20by%20Year-1.png" width="1152" /></p>
+<p><img src="/post/clinvar_2019_overview_files/figure-html/Total Records by Year-1.png" width="1152" /></p>
 </div>
 <div id="how-many-variants-added-and-removed-in-2019" class="section level1">
 <h1>How many variants added and removed in 2019?</h1>
 <p>During 2019, <strong>195.659 new variant added</strong>, while <strong>407 variants removed</strong> from the ClinVar. Regarding those removed variants, it seems that most of them were submitted in 2014 and by the single submitter. The majority of those variants are located on <em>MSH2</em>, <em>MSH6</em>, <em>BLM</em> and <em>MLH1</em> which are mostly mismatch repair genes.Interestingly, all of the removed MLH1, MSH2, and MSH6 variants were previously curated by an expert panel, International Society for Gastrointestinal Hereditary Tumours (InSiGHT). Before removal, all of those were curated as <strong>Uncertain Significance for Lynch syndrome</strong> (OMIM #<a href="https://www.omim.org/entry/120435">120435</a>).</p>
-<p><img src="/post/clinvar_2019_overview_files/figure-html/Changed%20Variants-1.png" width="1152" /></p>
-<p>In 2019, those variants were re-evaluated by InSiGHT MMR Variant Interpretation Committee previous year and removed due to conflicts with their classification criteria. The complete variant list and their reasons for removal can be found <a href="http://www.insight-database.org/classifications/reclassifications.html">here</a>.</p>
+<p><img src="/post/clinvar_2019_overview_files/figure-html/Changed Variants-1.png" width="1152" /></p>
+<p>In 2019, those variants were re-evaluated by InSiGHT MMR Variant Interpretation Committee and removed due to conflicts with their classification criteria. The complete variant list and their reasons for removal can be found <a href="http://www.insight-database.org/classifications/reclassifications.html">here</a>.</p>
 <div id="submitter-contribution" class="section level2">
 <h2>Submitter Contribution</h2>
 <p>In 2019, about %12 of the registered variations had received new interpretation submissions. Totally, <strong>66.799 new evidences</strong> were submitted to those existing variations. While 53.532 of variations has a new single submitter, 6119 of them have two or more new submissions. Also, 407 variants which removed by InSiGHT panel lost their interpretations.</p>
 <p>The plots below show the changes of review statuses of variations in 2019. A major loss observed in Unknown Significance variants (VUS). 10326 variants have lost its VUS status. On the other hand, conflicting records inflated with <strong>9638 new variants</strong>. It seems that new submitters shift the Unknown Significance variants to Conflicting ones.</p>
-<p><img src="/post/clinvar_2019_overview_files/figure-html/Status%20Change%20and%20Conflicts-1.png" width="1152" /></p>
+<p><img src="/post/clinvar_2019_overview_files/figure-html/Status Change and Conflicts-1.png" width="1152" /></p>
 <p>When we look at details of variants that cause conflicts <em>-plot top right-</em> Unknown Significance and Likely benign records become prominent. As Venter’s study confirms, new submissions tend to be conservative in pathogenicity.</p>
 <p>On overall:</p>
 <ul>
@@ -133,7 +132,7 @@
 <div id="summary" class="section level2">
 <h2>Summary</h2>
 <p>2019 was the year of critical changes for ClinVar. It’s exponential growth over the years slowed down intentionally by the new submission/curation algorithm. The changes occurred not only in ClinVar but also in the institutions that supported it. The InSiGHT, a major contributor for ClinVar, re-curated its old submissions and decided to retract several cancer-related ones. Also, VUS/Benign-prone curation trend seemed to continue in 2019 too. Those new submissions caused lots of new conflicting records. Thereby, it was also the year of the conflicts for ClinVar.</p>
-<p>Nevertheless, I find this inflation in conflicting records very promising. I believe, the facts will come to light when these contradictions are resolved in some way. I may finish this post with a quote that I read recently.</p>
+<p>Nevertheless, I find this inflation in conflicting records very promising. I believe, the facts will come to light when these contradictions are resolved in some way. I may finish this post with a quote from the book that I recently read.</p>
 <blockquote>
 <p><em>In the awareness that we can always be wrong, and therefore ready at any moment to change direction if a new track appears; but knowing also that if we are good enough we will get it right and will find what we are seeking. This is the nature of science.</em><br />
 <em>― Carlo Rovelli, Seven Brief Lessons on Physics</em></p>
