@@ -6,10 +6,19 @@
     <description>Recent content in Bioinformatics on Can Holyavkin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <lastBuildDate>Sun, 26 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Phylogenetic Analysis of SARS-CoV-2 Strains in Turkey</title>
+      <link>/post/phylogenetic-analysis-of-sars-cov-2-strains-in-turkey/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/phylogenetic-analysis-of-sars-cov-2-strains-in-turkey/</guid>
+      <description>As of May 2020, a total of 61 high coverage SARS-CoV-2 sequences were submitted to Global Initiative on Sharing All Influenza Data (GISAID) from Turkey. In this post, I’ll share an overview about the mutations and phylogenetic analysis of SARS-CoV-2 genomes in Turkey. Prior to analysis, all sequences were downloaded from GISAID and multiple sequence alignment was performed using MAFFT v7.450 tool.1 The phylogenetic tree was constructed using Phylip v.</description>
+    </item>
     
     <item>
       <title>ClinVar 2019 Overview</title>

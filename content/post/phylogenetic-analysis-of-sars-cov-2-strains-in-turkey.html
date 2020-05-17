@@ -1,0 +1,102 @@
+---
+title: Phylogenetic Analysis of SARS-CoV-2 Strains in Turkey
+author: Can Holyavkin
+date: '2020-05-17'
+slug: phylogenetic-analysis-of-sars-cov-2-strains-in-turkey
+categories:
+  - Bioinformatics
+tags:
+  - Data Source
+description: "As of May 2020, a total of 61 high coverage SARS-CoV-2 sequences were submitted to Global Initiative on Sharing All Influenza Data (GISAID) from Turkey. In this post, I’ll share an overview about the mutations and distribution of variants."
+---
+
+
+
+<p>As of May 2020, a total of 61 high coverage SARS-CoV-2 sequences were submitted to Global Initiative on Sharing All Influenza Data (GISAID) from Turkey. In this post, I’ll share an overview about the mutations and phylogenetic analysis of SARS-CoV-2 genomes in Turkey. Prior to analysis, all sequences were downloaded from GISAID and multiple sequence alignment was performed using MAFFT v7.450 tool.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> The phylogenetic tree was constructed using Phylip v.3.6 with Neighbor-Joining and composite likelihood method and 100 bootstrap replications.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>Using the SARS-CoV-2 isolate Wuhan-Hu-1 as reference (GenBank: <a href="https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3?report=fasta&amp;to=29903">MN908947.3</a>), 97 mutations were detected across 61 Turkey samples. 48 of 97 mutations have observed once in samples and 75 of them had lower than 10% frequency. 10 mutations were highly polymorphic and observed more than 30% of submitted sequences. The analysis also showed a low mutation rate of the virus, with an average of 8.5 mutations per sample compared with the reference SARS-CoV-2 genome sequence.</p>
+<div class="figure"><span id="fig:unnamed-chunk-1"></span>
+<img src="/post/phylogenetic-analysis-of-sars-cov-2-strains-in-turkey_files/figure-html/unnamed-chunk-1-1.png" alt="Genomic position and frequencies of detected mutation in Turkish samples. The mutations with higher than 30% frequencies were highlighted." width="1152" />
+<p class="caption">
+Figure 1: Genomic position and frequencies of detected mutation in Turkish samples. The mutations with higher than 30% frequencies were highlighted.
+</p>
+</div>
+<p>The mutation profile across local SARS-CoV-2 strains revealed that 56% of mutations were C-T mismatches and 13% were G-T mismatches. This non-random distribution can be attributed to well-known cytosine to uridine deamination systems in host organisms. The majority of animals have <em>ADAR</em> and <em>APOBEC</em> enzymes that causing a C&gt;T or A&gt;G substitutions in the transcribed RNA.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> Since the SARS-CoV virus has an ssRNA-based genome and uses host replication mechanisms, it can be expected to have a similar mutation profile. Most of the mutations (60%) were located on the <em>orf1ab</em> gene due to its large portion on the genome and following with the <em>S</em> and <em>N</em> genes. <em>E</em>, <em>M</em>, and <em>ORF8</em> genes have the highest mutation per kb rate.</p>
+<table>
+<caption><span id="tab:genotypes">Table 1: </span>Number of mutations and mutation per kilobases in Turkey samples</caption>
+<thead>
+<tr class="header">
+<th align="left">Gene</th>
+<th align="right">Gene Length</th>
+<th align="right">Number of Mutations</th>
+<th align="right">Mutation per Kb</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">M</td>
+<td align="right">668</td>
+<td align="right">6</td>
+<td align="right">8.98</td>
+</tr>
+<tr class="even">
+<td align="left">E</td>
+<td align="right">227</td>
+<td align="right">2</td>
+<td align="right">8.81</td>
+</tr>
+<tr class="odd">
+<td align="left">ORF8</td>
+<td align="right">365</td>
+<td align="right">3</td>
+<td align="right">8.22</td>
+</tr>
+<tr class="even">
+<td align="left">N</td>
+<td align="right">1259</td>
+<td align="right">7</td>
+<td align="right">5.56</td>
+</tr>
+<tr class="odd">
+<td align="left">S</td>
+<td align="right">3821</td>
+<td align="right">11</td>
+<td align="right">2.88</td>
+</tr>
+<tr class="even">
+<td align="left">orf1ab</td>
+<td align="right">21289</td>
+<td align="right">60</td>
+<td align="right">2.82</td>
+</tr>
+<tr class="odd">
+<td align="left">ORF7a</td>
+<td align="right">365</td>
+<td align="right">1</td>
+<td align="right">2.74</td>
+</tr>
+<tr class="even">
+<td align="left">ORF3a</td>
+<td align="right">827</td>
+<td align="right">2</td>
+<td align="right">2.42</td>
+</tr>
+</tbody>
+</table>
+<p>The phylogenetic analysis current submissions revealed that Turkey had two significantly differentiated SARS-CoV-2 clusters that dispersed across 21 cities. The one cluster had key mutations at <em>g.1397G&gt;A</em>, <em>g.11083G&gt;T</em>, <em>g.28688T&gt;C</em>, and <em>g.29742G&gt;T</em> which are also found in other samples from Australia, Canada, England, and Kuwait. This geographically dispersed cluster is known to be branched in early of the epidemic and genetically clustered very closely together. According to published case reports and GISAID metadata entries, at least 9 SARS-CoV-2 samples in the nearby clusters had a recent travel history to Iran.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> Similarly, 7 of 22 samples in this Turkey cluster had also recent travel history to Iran or Saudi Arabia (highligted as red dots in Figure 1).</p>
+<div class="figure"><span id="fig:unnamed-chunk-2"></span>
+<img src="/post/phylogenetic-analysis-of-sars-cov-2-strains-in-turkey_files/figure-html/unnamed-chunk-2-1.png" alt="Phylogenetic tree by neighbour-joining method and genotypes of polymorpic SNPs of Turkey samples grouped by the cities. Red tips indicates the patients with recent travel history to Iran or Saudi Arabia." width="1152" />
+<p class="caption">
+Figure 2: Phylogenetic tree by neighbour-joining method and genotypes of polymorpic SNPs of Turkey samples grouped by the cities. Red tips indicates the patients with recent travel history to Iran or Saudi Arabia.
+</p>
+</div>
+<p>The second cluster had key mutations at <em>g.3037C&gt;T</em>, <em>g.14408C&gt;T</em>, and <em>g.23403A&gt;G</em> which belong to global major cluster called <strong>G clade</strong> according to GISAID and observed globally. This clade is prevalent in Europe, carries a <em>D614G</em> (g.23403A&gt;G) mutation in the <em>S</em> gene (Spike protein), that is used for the primary interaction with the human cell membrane. Interestingly, the second cluster had also samples with recent Iran and Saudi Arabia travel history as the first clade. It can be assumed that returning travelers from Iran or Saudi Arabia may have passed the virus to neighbors and family members.</p>
+<p>The phylogenetic analysis showed that the samples were not clustered geographically as the closely related cases were generally sampled from different cities in Turkey. Thus, major cities such as Ankara and Istanbul (cities have the highest number of submitted SARS-CoV-2 sequences), the samples were not clustered uniformly, as both cities have diverse samples located in different clades. Presence of such cases in both major clades may indicate there has been extensive mixing of viral strains, arriving at numerous areas of Turkey in a short period of time, and multiple introductions of strains in the early stages of the epidemic.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Katoh, K., &amp; Standley, D. M. (2013). MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability. Molecular Biology and Evolution, 30(4), 772–780. <a href="https://doi.org/10.1093/molbev/mst010" class="uri">https://doi.org/10.1093/molbev/mst010</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Eguchi, Y. (2011). PHYLIP-GUI-Tool (PHYGUI): adapting the functions of the graphical user interface for the PHYLIP package. Journal of Biomedical Science and Engineering, 4(2), 90–93. <a href="https://doi.org/10.4236/jbise.2011.42012" class="uri">https://doi.org/10.4236/jbise.2011.42012</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Gonzales-van Horn, S. R., &amp; Sarnow, P. (2017). Making the Mark: The Role of Adenosine Modifications in the Life Cycle of RNA Viruses. Cell Host &amp; Microbe, 21(6), 661–669. <a href="https://doi.org/10.1016/j.chom.2017.05.008" class="uri">https://doi.org/10.1016/j.chom.2017.05.008</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>Eden, J.-S., Rockett, R., Carter, I., Rahman, H., de Ligt, J., Hadfield, J., Storey, M., Ren, X., Tulloch, R., Basile, K., Wells, J., Byun, R., Gilroy, N., O’Sullivan, M. V., Sintchenko, V., Chen, S. C., Maddocks, S., Sorrell, T. C., … Holmes, E. C. (2020). An emergent clade of SARS-CoV-2 linked to returned travelers from Iran. Virus Evolution, 6(1). <a href="https://doi.org/10.1093/ve/veaa027" class="uri">https://doi.org/10.1093/ve/veaa027</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
