@@ -17,7 +17,7 @@
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/phylogenetic-analysis-of-sars-cov-2-strains-in-turkey/</guid>
-      <description>As of May 2020, a total of 61 high coverage SARS-CoV-2 sequences were submitted to Global Initiative on Sharing All Influenza Data (GISAID) from Turkey. In this post, I’ll share an overview about the mutations and phylogenetic analysis of SARS-CoV-2 genomes in Turkey. Prior to analysis, all sequences were downloaded from GISAID and multiple sequence alignment was performed using MAFFT v7.450 tool.1 The phylogenetic tree was constructed using Phylip v.</description>
+      <description>As of May 2020, a total of 61 high coverage SARS-CoV-2 sequences were submitted to Global Initiative on Sharing All Influenza Data (GISAID) from Turkey. In this post, I’ll share an overview of the mutations and phylogenetic analysis of SARS-CoV-2 genomes in Turkey. Before analysis, I downloaded all sequences from GISAID, and performed multiple sequence alignment using MAFFT v7.450 tool.1 I constructed the phylogenetic tree using Phylip v.3.6 with Neighbor-Joining and composite likelihood method and 100 bootstrap replications.</description>
     </item>
     
     <item>
