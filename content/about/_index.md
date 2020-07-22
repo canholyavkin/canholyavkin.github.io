@@ -55,10 +55,15 @@ Performed all basic and advanced analyses of both NGS based clinical and R&D pro
 ***
 
 # Publications
-Arslan, M., **Holyavkin, C.**, Kısakesen, H. İ., Topaloğlu, A., Sürmeli, Y., & Çakar, Z. P. (2018). Physiological and Transcriptomic Analysis of a Chronologically Long-Lived Saccharomyces cerevisiae Strain Obtained by Evolutionary Engineering. Mol Biotechnol, 60(7), 468-484.
 
-Balaban, B. G., Yılmaz, Ü., Alkım, C., Topaloğlu, A., Kısakesen, H. İ., **Holyavkin, C.** et al. (2019). Evolutionary Engineering of an Iron-Resistant Saccharomyces cerevisiae Mutant and Its Physiological and Molecular Characterization. Microorganisms, 8(1).
+Alm, E., Broberg, E. K., Connor, T., Hodcroft, E. B., Komissarov, A. B., Maurer-Stroh, S., Melidou, A., Neher, R. A., O’Toole, Á., & Pereyaslov, D. (2020). Geographical and temporal distribution of SARS-CoV-2 clades in the WHO European Region, January to June 2020. Eurosurveillance, 25(32). https://doi.org/10.2807/1560-7917.es.2020.25.32.2001410
 
-Hacısalihoğlu, B., **Holyavkin, C.**, Topaloğlu, A., Kısakesen, H. İ., & Çakar, Z. P. (2019). Genomic and transcriptomic analysis of a coniferyl aldehyde-resistant Saccharomyces cerevisiae strain obtained by evolutionary engineering. FEMS Yeast Res, 19(3).
+Terzioğlu, E., Alkım, C., Arslan, M., Balaban, B. G., **Holyavkin, C.**, Kısakesen, H. İ., Topaloğlu, A., Yılmaz Şahin, Ü., Gündüz Işık, S., Akman, S., & Çakar, Z. P. (2020). Genomic, transcriptomic and physiological analyses of silver‐resistant Saccharomyces cerevisiae obtained by evolutionary engineering. Yeast. https://doi.org/10.1002/yea.3514
 
-Sürmeli, Y., **Holyavkin, C.**, Topaloğlu, A., Arslan, M., Kısakesen, H. İ., & Çakar, Z. P. (2019). Evolutionary engineering and molecular characterization of a caffeine-resistant Saccharomyces cerevisiae strain. World J Microbiol Biotechnol, 35(12), 183.
+Sürmeli, Y., **Holyavkin, C.**, Topaloğlu, A., Arslan, M., Kısakesen, H. İ., & Çakar, Z. P. (2019). Evolutionary engineering and molecular characterization of a caffeine-resistant Saccharomyces cerevisiae strain. World Journal of Microbiology and Biotechnology, 35(12). https://doi.org/10.1007/s11274-019-2762-2
+
+Hacısalihoğlu, B., **Holyavkin, C.**, Topaloğlu, A., Kısakesen, H. İ., & Çakar, Z. P. (2019). Genomic and transcriptomic analysis of a coniferyl aldehyde-resistant Saccharomyces cerevisiae strain obtained by evolutionary engineering. FEMS Yeast Research, 19(3). https://doi.org/10.1093/femsyr/foz021
+
+Balaban, B. G., Yılmaz, Ü., Alkım, C., Topaloğlu, A., Kısakesen, H. İ., **Holyavkin, C.**, & Çakar, Z. P. (2019). Evolutionary Engineering of an Iron-Resistant Saccharomyces cerevisiae Mutant and Its Physiological and Molecular Characterization. Microorganisms, 8(1), 43. https://doi.org/10.3390/microorganisms8010043
+
+Arslan, M., **Holyavkin, C.**, Kısakesen, H. İ., Topaloğlu, A., Sürmeli, Y., & Çakar, Z. P. (2018). Physiological and Transcriptomic Analysis of a Chronologically Long-Lived Saccharomyces cerevisiae Strain Obtained by Evolutionary Engineering. Molecular Biotechnology, 60(7), 468–484. https://doi.org/10.1007/s12033-018-0087-2
