@@ -56,6 +56,8 @@ Performed all basic and advanced analyses of both NGS based clinical and R&D pro
 
 # Publications
 
+Pavel, S. T. I., Yetiskin, H., Aydin, G., **Holyavkin, C.**, Uygut, M. A., Dursun, Z. B., Celik, İ., Cevik, C., & Ozdarendeli, A. (2020). Isolation and characterization of severe acute respiratory syndrome coronavirus 2 in Turkey. PLOS ONE, 15(9), e0238614. https://doi.org/10.1371/journal.pone.0238614
+
 Alm, E., Broberg, E. K., Connor, T., Hodcroft, E. B., Komissarov, A. B., Maurer-Stroh, S., Melidou, A., Neher, R. A., O’Toole, Á., & Pereyaslov, D. (2020). Geographical and temporal distribution of SARS-CoV-2 clades in the WHO European Region, January to June 2020. Eurosurveillance, 25(32). https://doi.org/10.2807/1560-7917.es.2020.25.32.2001410
 
 Terzioğlu, E., Alkım, C., Arslan, M., Balaban, B. G., **Holyavkin, C.**, Kısakesen, H. İ., Topaloğlu, A., Yılmaz Şahin, Ü., Gündüz Işık, S., Akman, S., & Çakar, Z. P. (2020). Genomic, transcriptomic and physiological analyses of silver‐resistant Saccharomyces cerevisiae obtained by evolutionary engineering. Yeast. https://doi.org/10.1002/yea.3514
